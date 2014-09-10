@@ -13,13 +13,13 @@ body{
 h1{
 	color:#69C;
 	margin-right:300px;
-	border-bottom:5px solid #FC9;
+	border-bottom:5px dotted #FC9;
 }
 
 h3{
 	color:#3A7F07;
 
-	border-bottom:5px solid #C9E;
+	border-bottom:5px dotted #C9E;
 }
 
 h1,h2,h3,h4{
