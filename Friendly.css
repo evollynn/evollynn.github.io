@@ -10,6 +10,11 @@ body{
 	font-family:Arial,Helvetica,San-serif;
 	background-color:#FAFCC2;
 }
+
+header{
+	height:30px;
+}
+
 h1{
 	color:#69C;
 	margin-right:300px;
