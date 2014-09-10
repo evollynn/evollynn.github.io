@@ -68,7 +68,7 @@ ul{
 }
 
 .me{
-	list-style-type:inline;
+	text-align:center;
 }
 footer{
 	height:200px;
