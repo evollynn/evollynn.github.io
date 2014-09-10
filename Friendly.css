@@ -68,6 +68,8 @@ ul{
 }
 
 #links ul li{
+	/*list-style-type: none;*/
+	display: inline;
 	text-align:center;
 }
 footer{
