@@ -67,6 +67,10 @@ ul{
 	color:#555;
 }
 
+.me{
+	list-style-type:inline;
+}
 footer{
 	height:200px;
 }
+
