@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Arial,Helvetica,San-serif;
+	background-color:#C284C9;
+}
+h1{
+	color:#69C;
+	background-color:#CCC;
+	border-bottom:10px solid #FC9;
+}
+
+h3{
+	color:#3A7F07;
+	background-color:#FFC;
+	border-bottom:10px solid #C9E;
+}
+	
+P{
+	line-height:1.5;
+}
+a{
+	text-decoration:none;
+	font-weight:bold;
+}
