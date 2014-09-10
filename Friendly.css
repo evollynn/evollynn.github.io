@@ -76,6 +76,7 @@ ul{
 	/*list-style-type: none;*/
 	display: inline;
 	text-align:center;
+	margin-left:36px;
 }
 
 footer{
