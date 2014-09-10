@@ -22,11 +22,19 @@ h3{
 	border-bottom:10px solid #C9E;
 }
 
-h1,h2,h3,p{
+h1,h2,h3{
 	line-height:1.5;
 	margin-top:10px;
 	line-height:1.5;
-	margin-left:35px;
+	margin-left:20px;
+}
+
+
+p{
+	line-height:1.5;
+	margin-top:10px;
+	line-height:1.5;
+	margin-left:30px;
 }
 
 a{
