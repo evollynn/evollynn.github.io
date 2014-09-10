@@ -67,8 +67,12 @@ ul{
 	color:#555;
 }
 
-#links ul li{
+#links{
 	margin-top:30px;
+}
+
+#links ul li{
+	
 	/*list-style-type: none;*/
 	display: inline;
 	text-align:center;
