@@ -68,11 +68,13 @@ ul{
 }
 
 #links ul li{
+	margin-top:30px;
 	/*list-style-type: none;*/
 	display: inline;
 	text-align:center;
 }
+
 footer{
-	height:200px;
+	height:100px;
 }
 
