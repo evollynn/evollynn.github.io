@@ -21,13 +21,12 @@ h3{
 	background-color:#FFC;
 	border-bottom:10px solid #C9E;
 }
-	
-P{
+
+h1,h2,h3,p{
 	line-height:1.5;
 	margin-top:10px;
 	line-height:1.5;
 	margin-left:35px;
-	
 }
 
 a{
