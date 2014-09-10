@@ -12,14 +12,14 @@ body{
 }
 h1{
 	color:#69C;
-	background-color:#CCC;
-	border-bottom:10px solid #FC9;
+	margin-right:300px;
+	border-bottom:5px solid #FC9;
 }
 
 h3{
 	color:#3A7F07;
-	background-color:#FFC;
-	border-bottom:10px solid #C9E;
+
+	border-bottom:5px solid #C9E;
 }
 
 h1,h2,h3,h4{
