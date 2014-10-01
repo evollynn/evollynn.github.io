@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 750px;
+    text-align:left;
+	margin:0 auto;
+    /*box-sizing: border-box; 
+	padding: 20px;*/
+	
+}
+
+#main{
+	width:500px;
+	float:right;
+}
+
+#sidebar{
+	width:200px;
+	float:left;
+	margin-top:100px;
+}
+
+.clear{
+	clear:both;
+}
+
+h2{
+	font: 25px Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+	font-weight:bold;
+}
+
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+
+    body {
+        text-align: center;
+    }
+
+    #container {
+        width: 500px;
+        margin: 0 auto;
+        text-align: left;
+    }
