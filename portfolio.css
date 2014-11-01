@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**{
+	margin:0;
+	padding:0;
+}*/
+
+.clear {
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(images/Mok2.jpg);
+	background-repeat:no-repeat;
+	font:30px/1.5 Verdana, Geneva, sans-serif;
+}
+
+
+
+section {
+	padding: 30px;
+	margin-bottom: 1px;
+}
+
+.columnleft {
+	float: left;
+	width: 80%;
+}
+
+.columnright{
+	width:20%;
+	float: right;
+}
+
+.column {
+
+	text-align: center;
+}
+
+.homecontent{
+	text-align:left;
+	margin:550px 0 0 350px;
+	color:#3c2006;
+}
+
+. homecontect, p{
+	line-height:1.5;
+}
+#navigation{
+	position:absolute;
+	margin:200px 0 0 -600px;
+	text-align:left;
+}
+
+#navigation,ul,ol,a{
+	font-size:30px;
+	color:black;
+}
+
+#navigation,ul,ol{
+	padding-bottom:10px;
+}
+
+a:link {
+    text-decoration: none;
+	margin:10px 0;
+}
