@@ -3,6 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>works</title>
+<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic">
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
@@ -17,36 +20,40 @@
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
 	</script>
-	<style type="text/css">
-		*{margin: 0px; padding: 0px;}
-		@font-face{font-family:League_Gothic; src:url("images/LeagueGothic-Regular.otf");}
-		@font-face{font-family:PrimeRegular; src:url("images/PrimeRegular.otf");}
-		body{background-image: url('images/whiteBg.png'); }
-		.logo{top:100px; position: fixed; z-index: 1000;}
-		.menu{bottom: 100px; right: 100px; position: fixed; z-index:800; font-family: PrimeRegular; }
-		.menu ul{list-style-type: none; }
-		.menu button{ color: #fff; font-size: 72px;  border:0; margin-bottom:20px; background: url('images/Cbackground.png'); }
-		#home{
-		}
-		.homeimage img{width: 100%; position: inherit; z-index: -100;}
-		.homecontent{font-family:League_Gothic; font-size: 50px; background-image: url('images/Cbackground.png'); color: #fff; width: 400px; padding: 20px; top:200px; left: 150px; float: left; z-index: 800; position:absolute;}
-		.work{ margin: 150px 0 0 150px; width: 700px; min-height: 700px;}
-		.work h2{font-size: 30px; font-family: PrimeRegular; color: #f26522;}
-		.work ul {list-style-type: none;}
-		.work ul li{display: inline;}
-		.contact{padding: 200px  0 0 150px; background-image: url('images/BlackBg.png'); color:#fff; min-height: 500px;}
-		.contact h1{font-size: 30px; font-family: PrimeRegular; color:#ffffff; margin-top: -50px; /*margin-bottom: 100px;*/}
-		.contact strong{font-size:60px; color: #f26522; font-weight: bold;}
-		.contact ul li a{color:#ffffff; }
-		.contact ul{/*float:left;*/ margin-left: -600px;}
-		/*.contact ul li{margin-bottom:50px; font-size: 25px; margin-left: 30px;}*/
-		footer{margin: 10px; clear:both;}
-	</style>
 </head>
 
 <body>
+
+
+	 <section id="intro">
+        
+        <div class="logo">
+        
+			<img src="logo.png" alt="logo" title="logo"/>
+            
+		</div>
+        </section>
+        
+        <div class="navigation">
+				
+                <ul>
+					
+                   
+                    <ol><a href="index.html"><button onclick="('.homecontent')">HOME</a></button></ol>
+					
+                    <ol><a href="Works.html"><button onclick="('.work')">WORKS</a></button></ol>
+                  
+                    <ol><a href="images/Jie_Lin.pdf"><button onclick="('.reume')">RESUME</a></button></ol>
+                    
+				
+               </ul>
+               
+			        
+        </div>
+        
 <div class="work">
 			<h2>WORK</h2>
+            
 			<ul>
 				<li><a href="images/fullscreen/PatternDesign.jpg" rel="prettyPhoto" title="PatternDesign"><img src="images/thumbnails/PatternDesign.jpg" width="100" height="100" alt="PatternDesign" /></a></li>
 				
@@ -92,5 +99,12 @@
 
 			</ul>
 		</div>
+        
+         </section>
+    
+    <section id="footer">
+      Thank you for visiting my website~!
+    </section>
+ 
 </body>
 </html>
