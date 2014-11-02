@@ -1,0 +1,167 @@
+.clear {
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	/*background-image:url(images/BlackBg.png);
+	background-repeat:repeat;*/
+	background-image:url(Mok2.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+section {
+
+	padding: 30px;
+	margin-bottom: 1px;
+}
+
+#intro {
+	height:100px;
+}
+
+.logo{
+	text-align:right;
+	margin-right:110px;
+}
+
+.width {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.width img {
+	max-width: 100%;
+	height: auto;
+	/*float:right;
+	margin-right:-300px;*/
+	margin-top: 100px;
+}
+
+.width p{
+	color:#3c2006;
+	font-size:30px;
+	margin:370px -300px 0 0px;
+	font-family:Caviar Dreams;
+	font-style:italic;
+	font-weight:bolder;
+}
+
+
+.width ul ol a{
+	
+	font-size:20px;
+	color:black;
+}
+
+.width ul{
+	margin-top:50px;
+	margin-left:200px;
+	text-align:right;
+}
+
+.width ul ol{
+	
+	padding-bottom:10px;
+}
+
+a:link {
+    text-decoration: none;
+	margin:10px 0;
+}
+
+@media (min-width: 935px) {
+	
+	.column {
+		width:50%;
+		text-align: center;
+	}
+	
+	.left-column {
+
+		float: left;
+	}
+	
+	.right-column {
+
+		float: right;
+		margin-top:-100px;
+	}
+	
+	.width {
+		width: 400px;
+	}
+}
+
+.navigation{
+	position: fixed; 
+	z-index:800;
+	bottom: 0px; 
+	right: 200px;
+	font-family:Caviar Dreams;
+
+}
+.navigation ul{
+	list-style-type: none; 
+	color:#000000;
+}
+				
+.navigation ul ol a{
+	color:#FFF;
+}
+
+.navigation ul ol{
+	text-align:right;
+}
+				
+.navigation button{ 
+	opacity: 0.9;
+	color: #fff; 
+	font-size: 30px;  
+	margin-bottom:20px; 
+	background:url('images/Cbackground.png');
+	padding:0 10px;
+	border: 0px solid ;
+    border-radius: 25px ;
+}
+
+.work{ 
+	background:url('images/Cbackground.png');
+	border: 0px solid ;
+    border-radius: 50px;
+	opacity:0.9;
+	margin:-50px 0 100px 200px; 
+	width: 700px; 
+	min-height: 500px;
+}
+			 
+.work h2{	
+	font-size: 30px; 
+	font-family: PrimeRegular; 
+	color: #f26522;
+}
+
+.work ul {
+	list-style-type: none;
+}
+
+.work ul li{
+	display: inline;
+}
+
+/*.homeimage	{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+}*/
