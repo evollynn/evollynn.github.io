@@ -103,25 +103,25 @@ a:link {
 		width: 400px;
 	}
 	
-.work{ 
-	background:url('images/Cbackground.png');
-	border: 0px solid ;
-    border-radius: 50px;
-	opacity:0.9;
-	margin:-50px 0 100px 200px; 
-	width: 700px; 
-	min-height: 500px;
-}
+	.work{ 
+		background:url('images/Cbackground.png');
+		border: 0px solid ;
+    	border-radius: 50px;
+		opacity:0.9;
+		margin:-50px 0 100px 200px; 
+		width: 700px; 
+		min-height: 500px;
+	}
 			 
-.resume{ 
-	background:url('images/Cbackground.png');
-	border: 0px solid ;
-    border-radius: 50px;
-	opacity:0.9;
-	margin:-50px 0 100px 200px; 
-	width: 400px; 
-	min-height: 500px;
-}
+	.resume{ 
+		background:url('images/Cbackground.png');
+		border: 0px solid ;
+    	border-radius: 50px;
+		opacity:0.9;
+		margin:-50px 0 100px 200px; 
+		width: 400px; 
+		min-height: 500px;
+	}
 
 }
 
