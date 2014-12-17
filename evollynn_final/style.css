@@ -20,7 +20,7 @@ section {
 }
 
 #intro {
-	background:url('images/owl5.jpg');
+	background:url('images/owl3.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -34,6 +34,8 @@ section {
 	top: 1%;
 	text-align: center;
 	width: 100%;
+	/*color:#f26522;*/
+	color:#333;
 }
 
 #intro p{ 
@@ -41,8 +43,10 @@ section {
 	text-align: center;
 	width: 100%;
 	font-size:2em;
-	top: 50%;
+	top: 48%;
+	color:#f26522;
 	font-weight:normal;
+	font-weight:600;
 }
 	
 
@@ -180,10 +184,10 @@ section {
 }
 
 .resume h2{	
-	font-size: 30px; 
+	font-size: 25px; 
 	font-family: "Raleway", sans-serif;
 	color: #f26522;
-
+	
 }
 
  .work h2{	
