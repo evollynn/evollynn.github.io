@@ -15,8 +15,8 @@ section {
 }
 
 #intro .logo{
-	text-align:left;
-	margin-left:130px;
+	text-align:right;
+	margin-right:20px;
 }
 
 #intro {
