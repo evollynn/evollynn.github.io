@@ -19,24 +19,29 @@ section {
 	margin-right:20px;
 }
 
+
 #intro {
 	background:url('images/owl4.jpg');
-	background-size: cover;
-	background-position: center center;
+	background-size:contain;
+	background-position: center;
 	background-attachment: fixed;
+	
 	
 }
 
 #intro h1 {
 	font-family: 'Nunito', sans-serif;
-	font-size:10em;
+	font-size:9em;
 	position: absolute;
+	margin-left:10px;
 	top: 1%;
-	text-align: center;
+	text-align:center;
 	width: 100%;
-	/*color:#f26522;
-	color:#333;*/
-	color:#6D6626;
+	color:#f26522;
+	/*color:#333;
+	color:#6D6626;*/
+	
+	
 }
 
 #intro p{ 
@@ -46,7 +51,7 @@ section {
 	font-size:2em;
 	top: 48%;
 	
-	color:#f26522;
+	color:#ffffff;
 	font-weight:normal;
 	font-weight:600;
 }
@@ -75,7 +80,7 @@ section {
 
 #gap {
 	position: relative;
-	background-image: url('images/cool.jpg');
+	background-image: url('images/jump.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
