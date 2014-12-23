@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	margin: 0;
 	font-family: "Raleway", sans-serif;
@@ -11,10 +12,10 @@ body {
 
 section {
 	width: 100vw;
-	height: 100vh;
+	
 }
 
-#intro .logo{
+/*#intro .logo{
 	text-align:right;
 	margin-right:20px;
 }
@@ -28,14 +29,14 @@ section {
 	
 	
 }
+*/
 
-#intro h1 {
+#picture h1 {
 	font-family: 'Nunito', sans-serif;
-	font-size:9em;
+	font-size:5em;
 	position: absolute;
-	margin-left:10px;
-	top: 1%;
-	text-align:center;
+	top: 30%;
+	margin-left:300px;
 	width: 100%;
 	color:#f26522;
 	/*color:#333;
@@ -44,27 +45,33 @@ section {
 	
 }
 
-#intro p{ 
+#picture p{ 
 	position: absolute;
-	text-align: center;
+	margin-left:300px;
 	width: 100%;
 	font-size:2em;
 	top: 48%;
-	
 	color:#ffffff;
-	font-weight:normal;
-	font-weight:600;
+	font-weight:lighter;
+}
+
+#picture p em{
+	font-weight:bold;
 }
 	
+.logo{top:100px; position: fixed; z-index: 1000;}
 
 #picture {
+	position: relative;
 	background-image:url('images/cool.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 #content {
+	position: relative;
 	background:url('images/owl4b.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -86,6 +93,7 @@ section {
 	background-attachment: fixed;
 	/*perspective: 1px;
 	transform-style: preserve-3d;*/
+	height: 100vh;
 }
 
 
@@ -97,67 +105,68 @@ section {
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
-	padding: 30px;
 	background-attachment: fixed;
+	min-height: 100vh;
+	max-height: 200vh;
 }
 
 @media (min-width: 935px) {
+	
+	.work{ margin-left:250px; width: 700px; min-height: 700px;}
+		/*.work h2{font-size: 30px; font-family: PrimeRegular; color: #f26522;}
+		.work ul {list-style-type: none;}
+		.work ul li{display: inline;}
 	
 	
 	.work{ 
 		position:absolute;
 		margin-left:400px;
-		width: 900px; 
+		width: 900px; */
 		
 	
-	}
+	
 	.resume{ 
 		/*background:url(images/WhiteBg.png);
 		border: 0px solid ;
     	border-radius: 50px;
 		opacity:0.6;*/
-		margin:0px 0 100px 150px; 
-		width: 400px; 
-		min-height: 500px;
+		margin:30px 0 100px 150px; 
+		 
+		min-height: 600px;
 	
 
 	}
 	
 	.column {
-		width:50%;
 		text-align: center;
 	}
 	
 	.left-column {
-
+		width:40%;
 		float: left;
 	}
 	
 	.right-column {
-
+		width:60%;
 		float: right;
 	}
 	
-	.contact {
-		width: 600px;
-	}
 }
 
 .contact{
 	
 	color:#fff; 
-	min-height: 500px;
+	
 	}
 
 .contact h1{
 	font-size: 30px; 
 	font-family: "Raleway", sans-serif;
 	 color: #ffffff; 
-	 margin-top: -620px; 
-	 /*margin-bottom: 100px;*/
+
 	 }
 .contact strong{
-	font-size:60px; 
+	font-size:40px; 
 	color: #f26522;
 	font-weight: bold;
 }
@@ -165,8 +174,9 @@ section {
 	color:#ffffff; 
 	}
 .contact ul{
-	/*float:left;*/ 
-	margin-left: -100px;
+	/*float:left;*/
+	margin-top:-30px; 
+	margin-left: -10px;
 	}
 	
 	
@@ -177,6 +187,7 @@ section {
 }
 
 .resume h2{	
+	margin-top:30px;
 	font-size: 25px; 
 	font-family: "Raleway", sans-serif;
 	color: #f26522;
@@ -187,7 +198,7 @@ section {
 	color: #f26522;
  }
 
-}
+
 
  .work h2{	
 	font-size: 30px; 
